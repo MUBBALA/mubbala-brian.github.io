@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css-02/style-02.css">
+    <title>Mbrianzs-profile</title>
+</head>
+<body>
+
+     <!--[if lt IE 9]>
+      <div class="browsehappy">
+        <p>
+          You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.
+        </p>
+      </div>
+    <![endif]-->
+
+
+    <aside>
+        <figure>
+            <div id="avator"></div>
+            <figcaption>Mubbala Brian</figcaption>
+        </figure>
+        <img src="images/menu-icon-light.png" alt="menu bar icon">
+        <nav>
+            <ul class="active">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">about me</a></li>
+                <li><a href="portfolio-page.html">portfolio</a></li>
+                <li><a href="contact-page.html">contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <h1>I&rsquo;m an Electrical Enginner and a Web Designer.</h1>
+        <h2 style="color: #B32347; font-style:italic; font-size: 1.4em; ">Thanks for stopping by.</h2>
+        <p>Try out what you desire and love to do, do it to the best of your capability, turn it into reality, stand aside and watch&mdash;Oh youh!, Imagine your possibilities in accordance to  your creativitity skills; what you can come up with! <br> &mdash;with God, everything is Possible&mdash;</p>
+        
+        <a href="portfolio-page.html" class="cta">my portfolio</a>
+        
+          <div style="border: 1px solid #999; padding: 10px; background: #eee; margin: 30px;">
+            <h2 style="margin-bottom:15px; margin-top: 0;"><a href="#">Join us for Research projects on web designing and Development!</a></h2>
+             <p style="margin-top:0; line-height:1.5;"> Using the link above, You can reach out to me if you <em>have any questions</em>. feel free to contact me on <strong>+256702185199</strong>,  or send me your mail via <a href="mailto:bmubbala44@gmail.com">bmubbala44@gmail.com</a>. I'm available most of the times.</p>
+          </div>
+    
+    </main>
+
+    <!--javascript for navigation on mobile-->
+    <script>
+
+        (function() {
+                var menu = document.querySelector('ul'),
+                    menulink = document.querySelector('img');
+
+                menulink.addEventListener('click', function(e) {
+                    menu.classList.toggle('active');
+                     e.preventDefault();
+                });   
+        })();
+
+    </script>
+</body>
+</html>

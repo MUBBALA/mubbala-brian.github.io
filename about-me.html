@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css-02/style-02.css">
+    <title>Mbrianzs-profile</title>
+</head>
+<body>
+    <aside>
+        <figure>
+            <div id="avator"></div>
+            <figcaption>Mubbala Brian</figcaption>
+        </figure>
+        <img src="images/menu-icon-light.png" alt="menu bar icon">
+        <nav>
+            <ul class="active">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">about me</a></li>
+                <li><a href="portfolio-page.html">portfolio</a></li>
+                <li><a href="contact-page.html">contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="about-me">
+        <div class="main-left">
+            <div class="main-left-image">
+                 <img src="images/brian-profile1.jpg" alt="profile photo of Mubbala Brian">
+                 </div>
+            <div class="main-left-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
+             
+                 <a href="portfolio-page.html" class="cta">my portfolio</a>
+            </div>
+
+        </div><!--/main-left-->
+
+        <div class="main-right">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt nisi ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt nisi ut labore et dolore magna aliqua, Ut enim ad minim veniam. </p>
+        </div><!--/main-right-->
+        
+        
+    
+    </main>
+
+    <!--javascript for navigation on mobile-->
+    <script>
+
+        (function() {
+                var menu = document.querySelector('ul'),
+                    menulink = document.querySelector('img');
+
+                menulink.addEventListener('click', function(e) {
+                    menu.classList.toggle('active');
+                     e.preventDefault();
+                });   
+        })();
+
+    </script>
+</body>
+</html>
